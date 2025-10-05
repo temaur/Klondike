@@ -7,7 +7,8 @@ def is_list_growing(lst: list) -> bool:
             break
     return flag
 
-print(is_list_growing([0,1,3,4,7]))
-print(is_list_growing([0,1,3,4,2]))
-print(is_list_growing([2,2,2,2,2]))
-print(is_list_growing([4,3,2,1]))
+assert is_list_growing([0, 1, 3, 4, 7])
+assert not is_list_growing([0, 1, 3, 4, 2])
+assert not is_list_growing([2, 2, 2, 2, 2])
+assert not is_list_growing([4, 3, 2, 1])
+print('All tests passed')
