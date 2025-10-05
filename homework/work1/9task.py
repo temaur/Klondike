@@ -6,3 +6,4 @@ def get_pairs_number(lst: list[int], n: int) -> list[tuple]:
                 final_lst.append((lst[i], lst[j]))
     return final_lst
 print(get_pairs_number([1, 2, 4, 3, 5, 2], 7))
+# Тут я не уверен, поэтому тестов нет
